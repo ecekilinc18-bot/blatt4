@@ -11,7 +11,7 @@ public class H3_main {
         System.out.println("Celsius (float): " + celsiusFloat);
         System.out.println("Fahrenheit (float): " + fahrenheitFloat);
         System.out.println("Celsius (double): " + celsiusDouble);
-        System.out.println("Fahrenheit (double): " + fahrenheitDouble);
+        System.out.println("Fahrenheit (double): " + fahrenheitDouble) ;
     }
 
 
