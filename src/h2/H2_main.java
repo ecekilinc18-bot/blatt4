@@ -26,6 +26,21 @@ public class H2_main {
         c = ((!y) ^ (!x));     // özel tabloya göre (xor mantığı)
 
 
+
+        if (x && y){
+            c = false;
+        }
+        if (!x && !y){
+            c = true;
+        }
+        if (x && !y){
+            c = true;
+        }
+        if (!x && y){
+            c = false;
+        }
+
+
         System.out.println("input = " + input);
         System.out.println("x = " + x);
         System.out.println("y = " + y);
