@@ -25,7 +25,7 @@ public class H2_main {
         b = (x || y);          // biri bile true ise
         c = ((!y) ^ (!x));     // özel tabloya göre (xor mantığı)
 
-        // 3️⃣ Sonuçları yazdır
+
         System.out.println("input = " + input);
         System.out.println("x = " + x);
         System.out.println("y = " + y);
